@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestRest {
     @GetMapping(path = "/")
     public String bonjour(){
-        return "Bonjour enao";
+        return "Bonjour enao , Bonjour ty !";
     }
 }
